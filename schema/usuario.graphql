@@ -25,3 +25,17 @@ input UsuarioInput {
   email: String
   idade: Int
 }
+
+
+input UsuarioFiltro {
+  id: Int
+  email: String
+}
+
+input PerfilInput {
+  nome: String
+}
+
+input PerfilFiltro {
+  id: Int
+}

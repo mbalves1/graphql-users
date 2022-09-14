@@ -40,7 +40,7 @@ module.exports = {
   perfis () {
     return perfis
   },
-  perfil (_, { nome }) {
+  perfil (_, { id }) {
     const per = perfis.filter(u => u.id === id);
     return per ? per[0] : null;
   }

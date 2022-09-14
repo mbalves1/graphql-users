@@ -7,5 +7,5 @@ type Query {
   usuarios: [Usuario]
   usuario(id: ID): Usuario
   perfis: [Perfil]
-  perfil(nome: String): Perfil
+  perfil(id: Int): Perfil
 }
